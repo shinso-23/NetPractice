@@ -56,7 +56,7 @@
 
     * Subnetting is the idea of dividing a large network into smaller networks **How**? Using the subnet mask that's accompanied with the ip of the address, it's also helps you know which part is for the network (you can't touch) and the host part (which you can choose an ip from and give it yo your device)
 
-    #### How to subnet :
+    ####How to subnet :
         
         Right now most people still use the IPv4 mode since its what the internet uses, it uses 32 bit addresses and it each octet of it written in a decimal way ranged between 0-255 (example 192.168.1.1) to know which part is the network/host you look at the subnet mask which as I said before is in the network settings, let's say our subnet mask is 255.255.255.0 (which also can be written like /24) usually you convert the decimal numbers into binaries and you go from there (1bits represents the network and 0s represents the host)
 
