@@ -62,7 +62,7 @@
 
         255.255.255.0 = 11111111.11111111.11111111.00000000 which mean 192.168.1 -> network and the 0 is for the host. And to know how many ip addresses are left to use either you do 255 - 0 (the ip host number) - 2 (network ip + broadcast ip) = 254 or 2 to the power of (32 - 24) - 2 = 254
 
-        **WHY?*
+        **WHY?**
 
         1/ Reduce the broadcast traffic
         2/ Improve performance
